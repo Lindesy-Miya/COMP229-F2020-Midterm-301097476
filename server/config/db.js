@@ -1,6 +1,7 @@
 module.exports = {
   //local MongoDB deployment ->
-  "URI": "mongodb://localhost/book_store"
+  //"URI": "mongodb://localhost/book_store"
 
-  //"URI": "mongodb+srv://lting:lting@cluster0.fo6g2.mongodb.net/books?retryWrites=true&w=majority";
+  //try to put database on cloud
+  "URI": "mongodb+srv://lting:lting123@cluster0.fo6g2.mongodb.net/book_store?retryWrites=true&w=majority"
 };
